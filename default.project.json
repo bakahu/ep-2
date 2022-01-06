@@ -1,0 +1,41 @@
+{
+    "name": "ep-2",
+    "tree": {
+      "$className": "DataModel",
+      
+      "ReplicatedStorage": {
+        "$className": "ReplicatedStorage",
+        "Source": {
+          "$path": "src/Storage/Client"
+        },
+
+        "Packages": {
+          "$path": "Packages"
+        }
+      },
+
+      "StarterPlayer": {
+        "$className": "StarterPlayer",
+        "StarterPlayerScripts": {
+          "$className": "StarterPlayerScripts",
+          "Source": {
+            "$path": "src/Script/Client"
+          }
+        }
+      },
+
+      "ServerStorage": {
+        "$className": "ServerStorage",
+        "Source": {
+          "$path": "src/Storage/Client"
+        }
+      },
+
+      "ServerScriptService": {
+        "$className": "ServerScriptService",
+        "Source": {
+          "$path": "src/Script/Server"
+        }
+      }
+    }
+}
