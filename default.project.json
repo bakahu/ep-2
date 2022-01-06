@@ -27,7 +27,7 @@
       "ServerStorage": {
         "$className": "ServerStorage",
         "Source": {
-          "$path": "src/Storage/Client"
+          "$path": "src/Storage/Server"
         }
       },
 
